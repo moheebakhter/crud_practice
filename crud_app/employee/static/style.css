@@ -1,0 +1,151 @@
+/* Background */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Form Container */
+/* .container1 {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+  width: 350px;
+  text-align: center;
+  animation: fadeIn 0.6s ease-in-out;
+} */
+
+/* Heading */
+/*.container1 h1 {
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: 600;
+}*/
+
+/* Labels */
+label {
+  display: block;
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+/* Input Fields */
+input[type="text"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #6a11cb;
+  box-shadow: 0 0 6px rgba(106,17,203,0.3);
+}
+
+/* Employee Table */
+#customers {
+  font-family: 'Segoe UI', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+#customers thead {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: Black;
+  text-align: center;
+}
+
+#customers th, #customers td {
+  padding: 14px 18px;
+  font-size: 0.95rem;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#customers tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+#customers tr:hover {
+  background-color: #f1f7ff;
+  transition: 0.3s;
+}
+
+/* Action column center */
+#customers td button {
+  width: 100%;
+  padding: 8px 0;
+}
+
+/* General button styling */
+button {
+  padding: 12px 20px;
+  margin: 8px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Add Employee */
+#new3 {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+#new3:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+/* Delete */
+#del {
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+}
+#del:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+/* Update */
+#up, #new1 {
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+}
+#up:hover, #new1:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+/* Submit */
+#new {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+#new:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+/* Smooth animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
